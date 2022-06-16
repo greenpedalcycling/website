@@ -18,7 +18,7 @@ theme.
 	├─ building section
 	├─ feature section
 	├─ muscle section
-	├─ class schedule section
+	├─ SOSYAL SÜRÜŞ TAKVİMİ section
 	├─ trainers section
 	├─ gallery section
 	├─ counter section
@@ -154,7 +154,7 @@ input:focus, textarea:focus, select:focus {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #fb9221;
+	background-color: #62fb21;
 	-webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
 	animation: sk-foldCubeAngle 2.4s infinite linear both;
 	-webkit-transform-origin: 100% 100%;
@@ -377,8 +377,8 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	color: #3c3c3c;
 }
 .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover, header.header-small .navbar-dark .navbar-nav .active > .nav-link, header.header-small .navbar-dark .navbar-nav .nav-link:focus {
-	border-bottom: 2px solid #fb9221;
-	color: #fb9221;
+	border-bottom: 2px solid #62fb21;
+	color: #62fb21;
 	background-color: transparent;
 }
 .navbar-inverse .navbar-nav > li > a i {
@@ -396,9 +396,10 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	-----------------------*/
 .banner-outer {
 	display: block;
+	height: 1000px;
 	position: relative;
 	overflow-x: hidden;
-	background: url(../images/home-banner.jpg) no-repeat center top / cover;
+	background: url(../images/kk.jpeg) no-repeat center top / cover;
 }
 .banner-shadow {
 	position: absolute;
@@ -429,7 +430,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	padding-bottom: 5px;
 	font-size: 140px;
 	font-weight: 700;
-	color: #fb9221;
+	color: #62fb21;
 	font-style: italic;
 	line-height: 155px;
 	-webkit-animation-delay: 0.2s;
@@ -454,9 +455,9 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	padding: 7px 12px;
 	border-radius: 0;
 	background: none;
-	border: 2px solid #fb9221;
+	border: 2px solid #62fb21;
 	font-size: 16px;
-	color: #fb9221;
+	color: #62fb21;
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	-webkit-transition: all 0.3s ease 0s;
@@ -465,7 +466,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	cursor: pointer;
 }
 .btn:hover, .btn:focus {
-	background: #fb9221;
+	background: #62fb21;
 	color: #fff;
 }
 .inner-banner .content {
@@ -505,7 +506,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	border: none
 }
 .breadcrumbs li a {
-	color: #fb992f
+	color: #83f830
 }
 .breadcrumbs li a:hover {
 	opacity: .8
@@ -515,7 +516,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 /* ================================================== */
 .building-outer {
 	padding: 50px 0;
-	background: #f89830 url(../images/building_bg.png) no-repeat center top / cover;
+	background: #83f830 ;
 }
 .building-list {
 	margin-top: -150px;
@@ -525,6 +526,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	text-align: center;
 	background: #fff;
 	padding: 40px 25px;
+	height: 400px;
 }
 .building-box figure {
 	margin-bottom: 15px;
@@ -614,7 +616,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	-o-transform: skew(35deg);
 }
 .date {
-	background: #fb9221;
+	background: #62fb21;
 	margin: 0 3px 0 -12px;
 	padding: 0 10px 0px 20px;
 	min-width: 80px;
@@ -632,7 +634,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	padding: 10px 10px 0 0;
 }
 .feature-box p a {
-	color: #fb9221;
+	color: #62fb21;
 }
 .feature-slider .owl-prev, .feature-slider .owl-next {
 	position: absolute;
@@ -683,7 +685,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 }
 .muscle-para h3 {
 	font-size: 35px;
-	color: #fb9221;
+	color: #62fb21;
 }
 .muscle-para h4 {
 	font-size: 49px;
@@ -697,7 +699,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	padding: 12px 15px;
 }
 /* ================================================== */
-/* class schedule section */
+/* SOSYAL SÜRÜŞ TAKVİMİ section */
 /* ================================================== */
 .classSch-outer {
 	padding: 63px 0 75px;
@@ -756,7 +758,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	color: #fff;
 	font-size: 22px;
 	padding: 10px;
-	background: #fb9221
+	background: #62fb21
 }
 .trainers-box figure{
 	overflow:hidden;
@@ -857,11 +859,11 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	transition: all 0.3s ease 0s;
 }
 .tabs li:hover a, .tabs li.active a, .tabs li:hover span, .tabs li.active span {
-	background: #fb9221;
+	background: #62fb21;
 	position: relative
 }
 .tabs li:hover a:before, .tabs li.active a:before, .tabs li:hover span:before, .tabs li.active span:before {
-	color: #fb9221;
+	color: #62fb21;
 	content: "\f0d7";
 	font: normal normal normal 14px/1 FontAwesome;
 	position: absolute;
@@ -885,14 +887,14 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	text-transform: uppercase
 }
 .finess-outer h3 span {
-	color: #fb9221
+	color: #62fb21
 }
 /* ================================================== */
 /* Counter Section */
 /* ================================================== */
 .counter-outer {
 	padding: 50px 0 45px 0;
-	background: #fb9221 url(../images/counter_bg.png) no-repeat center top / cover;
+	background: #62fb21 url(../images/counter_bg.png) no-repeat center top / cover;
 	text-align: center;
 	background-attachment: fixed;
 }
@@ -921,7 +923,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	position: relative
 }
 .date-box {
-	background: #fb9221;
+	background: #62fb21;
 	text-align: center;
 	padding: 10px 5px;
 	min-width: 60px;
@@ -957,7 +959,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	font-weight:400;
 }
 .news-box p a {
-	color: #fb9221
+	color: #62fb21
 }
 .news-box p a:hover {
 	text-decoration: underline!important
@@ -978,7 +980,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	padding-bottom: 20px;
 	font-size: 24px;
 	text-transform: uppercase;
-	color: #fb9221;
+	color: #62fb21;
 	font-weight: 400;
 }
 .footer-top .contact-us p, .footer-top .contact-us a {
@@ -988,7 +990,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	padding: 0 0 24px 0;
 }
 .footer .contact-us a:hover {
-	color: #fb9221;
+	color: #62fb21;
 }
 .footer .contact-us .fa {
 	font-size: 24px;
@@ -1034,7 +1036,7 @@ color: #fff;
 .newletter .search-block .search {
 	border: none;
 	background: none!important;
-	color: #fb9221;
+	color: #62fb21;
 }
 .newletter .search-block .search .icon-search-icon {
 	color: #f99121;
@@ -1106,7 +1108,7 @@ a.scroll-top {
 	right: 20px;
 	bottom: 20px;
 	z-index: 99;
-	background-color: #fb9221;
+	background-color: #62fb21;
 }
 a.scroll-top:hover {
 	background: #db7e1b;
@@ -1131,7 +1133,7 @@ a.scroll-top:hover {
 	margin: 0 0 20px 0
 }
 .about-top-left h3 span {
-	color: #fb9221
+	color: #62fb21
 }
 .about-top-left p {	
 	margin: 0 0 20px 0;
@@ -1143,7 +1145,7 @@ a.scroll-top:hover {
 	text-transform: uppercase
 }
 .about-top-left ul li h4 i {
-	color: #fb9221;
+	color: #62fb21;
 	font-size: 35px;
 	vertical-align: middle;
 	margin-right: 11px;
@@ -1194,7 +1196,7 @@ a.scroll-top:hover {
 	padding: 10px 0;
 }
 .choose-building ul li i {
-	color: #fb9221;
+	color: #62fb21;
 	font-size: 25px;
 	vertical-align: middle;
 	margin-right: 5px;
@@ -1277,7 +1279,7 @@ a.scroll-top:hover {
 	height: 100%;
 	float: right;
 	border: none;
-	background: #fb9221;
+	background: #62fb21;
 	font-size: 21px;
 	color: #1d77ac;
 	transition: all 0.3s ease 0s;
@@ -1312,7 +1314,7 @@ a.scroll-top:hover {
 	font-weight: 400;
 }
 .category ul li a:hover {
-	color: #fb9221;
+	color: #62fb21;
 }
 .pouplar-news {
 	display: block;
@@ -1377,7 +1379,7 @@ a.scroll-top:hover {
 	float: right;
 }
 .archives ul li a:hover {
-	color: #fb9221;
+	color: #62fb21;
 }
 .news-right .tags {
 	display: block;
@@ -1427,7 +1429,7 @@ ul.tags-list li a:hover {
 	font-size: 13px;
 }
 .post-detail li span {
-	color: #fb9221;
+	color: #62fb21;
 	margin-right: 5px;
 	font-size: 14px;
 }
@@ -1519,7 +1521,7 @@ ul.tags-list li a:hover {
 	transition: all 0.3s ease 0s;
 }
 .comments-wrapper ul.comments li .com-txt a:hover {
-	color: #fb9221;
+	color: #62fb21;
 }
 .news-left .form-wrapper h3 {
 	margin-bottom: 30px;
@@ -1552,7 +1554,7 @@ ul.tags-list li a:hover {
 	color: #3c3c3c;
 }
 .cal-info-box p a:hover {
-	color: #fb9221;
+	color: #62fb21;
 }
 .contact-outer h3 {
 	font-size: 32px;
@@ -1596,9 +1598,9 @@ ul.tags-list li a:hover {
 	padding: 8px 10px;
 	border-radius: 0;
 	background: none;
-	border: 2px solid #fb9221;
+	border: 2px solid #62fb21;
 	font-size: 16px;
-	color: #fb9221;
+	color: #62fb21;
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	-webkit-transition: all 0.3s ease 0s;
@@ -1607,7 +1609,7 @@ ul.tags-list li a:hover {
 	cursor: pointer;
 }
 .form-wrapper input[type="submit"]:hover {
-	background: #fb9221;
+	background: #62fb21;
 	color: #fff
 }
 .contact-info {
@@ -1630,7 +1632,7 @@ ul.tags-list li a:hover {
 	margin-right: 10px;
 }
 .contact-info ul.follow-us li a:hover {
-	background: #fb9221;
+	background: #62fb21;
 }
 /* ================================================== */
 /* 12. 404 Page */
@@ -2008,7 +2010,7 @@ header.header-small img.fix {
 	font-size: 15px;
 }
 .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-	background: #fb9221;
+	background: #62fb21;
 	color: #fff;
 }
 .navbar-toggle .icon-bar {
