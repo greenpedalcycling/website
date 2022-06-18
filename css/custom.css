@@ -1,5 +1,5 @@
 /*-------------------------------------------------------------------------------------
-Theme Name: Kuntosala Template
+Theme Name: GREENPEDAL Template
 Author: Devender Kumar
 
 -------------------------------------------------------------------------------------/
@@ -894,20 +894,20 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 /* ================================================== */
 .counter-outer {
 	padding: 50px 0 45px 0;
-	background: #62fb21 url(../images/counter_bg.png) no-repeat center top / cover;
+	background: #000 url(../images/count_1.jpg) no-repeat center top / cover;
 	text-align: center;
 	background-attachment: fixed;
 }
 .counter-box strong {
-	color: #fff;
+	color: #62fb21;
 	font-size: 66px;
 	display: block;
 	padding: 10px 0;
 	font-weight: normal;
-	line-height: 70px
+	line-height: 70px;
 }
 .counter-box small {
-	color: #fff;
+	color: #62fb21;
 	font-size: 20px
 }
 /* ================================================== */
