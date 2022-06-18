@@ -30,7 +30,7 @@ theme.
 09. trainers page
 10. news page
    ├─ news detail page
-11. contact us page
+11. İLETİŞİM page
 12. 404 page
 13. responsive style
 
@@ -1527,10 +1527,12 @@ ul.tags-list li a:hover {
 	margin-bottom: 30px;
 }
 /* ================================================== */
-/* 11. Contact Us Page */
+/* 11. İLETİŞİM Page */
 /* ================================================== */
 .contact-us-banner {
-	background: url(../images/contact-us-banner.png) no-repeat center top / cover;
+	background: url(../images/1.png) no-repeat center top / cover;
+	width: 2000px !important;
+	
 }
 .contact-outer {
 	padding: 50px 0 70px;
