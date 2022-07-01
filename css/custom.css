@@ -455,9 +455,9 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	padding: 7px 12px;
 	border-radius: 0;
 	background: none;
-	border: 2px solid #62fb21;
+	border: 2px solid #2183fb;
 	font-size: 16px;
-	color: #62fb21;
+	color: #2183fb;
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	-webkit-transition: all 0.3s ease 0s;
@@ -466,7 +466,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	cursor: pointer;
 }
 .btn:hover, .btn:focus {
-	background: #62fb21;
+	background: #2183fb;
 	color: #fff;
 }
 .inner-banner .content {
@@ -685,7 +685,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 }
 .muscle-para h3 {
 	font-size: 35px;
-	color: #62fb21;
+	color: #3b9a12;
 }
 .muscle-para h4 {
 	font-size: 49px;
@@ -894,12 +894,12 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 /* ================================================== */
 .counter-outer {
 	padding: 50px 0 45px 0;
-	background: #000 url(../images/count_1.jpg) no-repeat center top / cover;
+	background: white no-repeat center top / cover;
 	text-align: center;
 	background-attachment: fixed;
 }
 .counter-box strong {
-	color: #62fb21;
+	color: #21b6fb;
 	font-size: 66px;
 	display: block;
 	padding: 10px 0;
@@ -907,7 +907,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 	line-height: 70px;
 }
 .counter-box small {
-	color: #62fb21;
+	color: #21b6fb;
 	font-size: 20px
 }
 /* ================================================== */
@@ -969,7 +969,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 /* ================================================== */
 .footer {
 	display: block;
-	background: #161616 url(../images/footer_bg.png) no-repeat center top / cover;
+	background: #161616 url(../images/footer-bg.png) no-repeat center top / cover;
 }
 .footer-top {
 	padding-top: 70px;
@@ -1117,7 +1117,7 @@ a.scroll-top:hover {
 /* 06. About Us */
 /* ================================================== */
 .about-us-banner {
-	background: url(../images/about-us-banner.png) no-repeat center top / cover;
+	background: url(../images/about.png) no-repeat center top / cover;
 }
 .about-top-outer {
 	padding: 63px 0 18px 0;
