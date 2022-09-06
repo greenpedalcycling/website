@@ -403,7 +403,6 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 }
 .banner-shadow {
 	position: absolute;
-	;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -1118,6 +1117,8 @@ a.scroll-top:hover {
 /* ================================================== */
 .about-us-banner {
 	background: url(../images/about.png) no-repeat center top / cover;
+	position: relative;
+	overflow-x: hidden;
 }
 .about-top-outer {
 	padding: 63px 0 18px 0;
@@ -1530,8 +1531,6 @@ ul.tags-list li a:hover {
 /* 11. İLETİŞİM Page */
 /* ================================================== */
 .contact-us-banner {
-	background: url(../images/1.png) no-repeat center top / cover;
-	width: 2000px !important;
 	
 }
 .contact-outer {
