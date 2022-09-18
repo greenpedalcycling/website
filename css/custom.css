@@ -1521,6 +1521,10 @@ ul.tags-list li a:hover {
 	opacity: 0.5;
 	transition: all 0.3s ease 0s;
 }
+.aidat {
+	font-size: x-large;
+	margin-top: 10px;
+}
 .comments-wrapper ul.comments li .com-txt a:hover {
 	color: #62fb21;
 }
