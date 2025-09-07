@@ -681,33 +681,30 @@ header.header-small .navbar-dark .navbar-nav .nav-link:focus {
 /* Muscle Section */
 /* ================================================== */
 .muscle-outer {
-  background: #eeeeee;
-  display: inline-block;
+  background: transparent;
+  display: block;
   width: 100%;
   position: relative;
+  padding: 20px 0;
 }
 .muscle-outer figure {
   width: 45%;
   float: left;
+  margin-bottom: 20px;
 }
 .muscle-outer figure img {
   width: 100%;
 }
 .muscle-para {
   float: left;
-  padding-left: 100px;
+  padding-left: 20px;
   width: 55%;
+  margin-bottom: 20px;
 }
 .muscle-para .outer {
   max-width: 800px;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  -moz-transform: translate(0, -50%);
-  -o-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  -webkit-transform: translate(0, -50%);
-  padding-right: 70px;
+  padding-right: 20px;
+  height: auto;
 }
 .muscle-para h3 {
   font-size: 35px;
@@ -723,6 +720,12 @@ header.header-small .navbar-dark .navbar-nav .nav-link:focus {
   font-size: 20px;
   line-height: 25px;
   padding: 12px 15px;
+}
+.muscle-container {
+  padding: 20px 0;
+}
+.clear {
+  clear: both;
 }
 /* ================================================== */
 /* SOSYAL SÜRÜŞ TAKVİMİ section */
@@ -1716,13 +1719,13 @@ ul.tags-list li a:hover {
 
 @media (max-width: 1500px) {
   .muscle-para {
-    padding-left: 70px;
+    padding-left: 20px;
   }
 }
 
 @media (max-width: 1279px) {
   .muscle-para {
-    padding-left: 40px;
+    padding-left: 20px;
   }
   .muscle-para h3 {
     font-size: 28px;
@@ -1836,7 +1839,7 @@ ul.tags-list li a:hover {
 
 @media (max-width: 1023px) {
   .muscle-para {
-    padding: 0 0 0 30px;
+    padding: 0 0 0 20px;
   }
   .muscle-para h3 {
     font-size: 24px;
@@ -2205,6 +2208,7 @@ ul.tags-list li a:hover {
     -o-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
     -webkit-transform: translate(0, 0);
+    padding-right: 0;
   }
   .muscle-para h3 {
     font-size: 25px;
